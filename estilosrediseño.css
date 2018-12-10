@@ -13,6 +13,18 @@
   border-radius: 60%
 }
 
+#tramites2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%
+}
+
+#tramites3 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 60%
+}
+
 .texto p{
   font-size: 12px;
   font-family: Arial;
@@ -198,13 +210,8 @@ header nav ul li .caret {
   margin-top: -50px;
 }
 
-.card-body{
-  
-}
-
 .btn {
   background: #023859;
-  block-size: 45px;
   font-family: Helvetica;
   font-size: 20px;
 }
