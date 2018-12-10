@@ -1,0 +1,23 @@
+.card-deck{
+    padding: 120px;
+}
+
+.card-body{
+    
+}
+
+.btn {
+    background: #023859;
+    block-size: 45px;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: #E65100;
+}
+
+.card p {
+    padding-top: 15px;
+    padding-left: 10px;
+}

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trámites en Línea</title>
+    <link rel="stylesheet" href="estilosmenu.css">
+    <link rel="stylesheet" href="tramites.css"> <!--Estilos Propios--> 
+    <link rel="stylesheet" href="fonts.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!--Estilos Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> <!--Carousel-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-------------------------------- HEADER --------------------------------> 
+
+<header> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md 12">
+                    <div class= "page-header">
+                        <a href="Principal/rediseñositiowebrancagua.html"><img src="img/rancaguamunilogo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+            <li class="submenu">
+                <a href="#"><span class="icon-heart"></span>Ciudad<span class="caret icon-chevron-small-down"></span></a>
+                <ul class="children"> <!-- SubMenu -->
+                    <li><a href="#">Rancagua<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Plan Regulador Comunal<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Plan Regulador Intercomunal<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Plan de Desarollo Comunal<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Plan Comunal de Seguridad Pública<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Ordenanzas Municipales<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#"><span class="icon-users"></span>Municipio<span class="caret icon-chevron-small-down"></span></a>
+                <ul class="children">
+                        <li><a href="#">Alcalde<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Consejo Municipal<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Organigrama<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Cuentas Públicas<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Estados Financieros<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Documentos<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Decretos Municipales<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Concursos Públicos<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Ofertas Laborales<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#"><span class="icon-users"></span>Unidades<span class="caret icon-chevron-small-down"></span></a>
+                <ul class= "children">
+                        <li><a href="#">Juzgados de Policía Local<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Administración Municipal<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Relaciones Públicas y Comunicacionales<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Dirección de Control<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Secretaría Comunal de Planificación<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Asesoría Jurídica<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Secretaría Municipal<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Dirección y Desarrollo Comunitario<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Dirección de Obras Municipales<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Dirección de Tránsito y Transporte Público<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Dirección de Gestión Ambiental<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Dirección de Administración y Finanzas<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#"><span class="icon-tree"></span>Medio Ambiente<span class="caret icon-chevron-small-down"></span></a>
+                <ul class="children">
+                        <li><a href="#">SCAM<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Avances Estrategia Ambiental<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Limpieza y Mantención de Canales<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Tenencia Responsable de Animales<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Calidad del Aire<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Residuos Sólidos Domiciliarios<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li><a href="#"><span class="icon-brush"></span>Cultura</a></li>
+            <li><a href="#"><span class="icon-flag"></span>Deportes</a></li>
+            <li><a href="#"><span class="icon-mail"></span>Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-------------------------------- TRAMITES --------------------------------> 
+
+<div class="container">
+    <br>
+    <h1>Información sobre Trámites</h1>
+    <br>
+    <h3>Portal Transparencia Chile</h3>
+</div>
+
+<div class="container text-center text-md-left">
+
+    <div class="row">
+    
+        <div class="col-md-1 mt-md-0 mt-3">
+            <figure id="portal-transparencia">
+                <img src="img/icon-portrans.png" alt="portal transparencia icono">
+            </figure>
+        </div>
+
+        <div class="col-md-5 mt-md-0 mt-3">
+            <div class="texto">
+                <p>Toda la información correspondiente a trámites se encuentra
+                disponible en el Portal de Transparencia del Consejo para la Transparencia.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class=linea>
+<hr noshade="noshade"/>
+</div>
+<div class="container">
+<br>
+<h3>Trámites en Línea</h3>
+<br>
+</div>
+
+<div class="container text-center text-md-left">
+
+    <div class="row">
+        <div class="col-md-1 mt-md-0-mt3">
+            <figure id="tramites">
+                    <img src="img/icon-dideco.png" alt="icono solicitud ministro de fe">
+            </figure>
+        </div>
+        <div class="col-md-5 mt-md-0-mt3">
+            <div class="texto">
+                <h3>Solicitud Ministro de Fé <br>(Dideco)</h3>
+            </div>
+        </div>
+
+        <div class="col-md-1 mt-md-0-mt3">
+                <figure id="tramites">
+                        <img src="img/icon-mujer.png" alt="icono mujer">
+                </figure>
+            </div>
+            <div class="col-md-5 mt-md-0-mt3">
+                <div class="texto">
+                    <h3>Solicitud Atención Centro <br> de la Mujer</h3>
+                </div>
+            </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="container text-center text-md-left">
+
+    <div class="row">
+        <div class="col-md-1 mt-md-0-mt3">
+            <figure id="tramites">
+                    <img src="img/icon-audiencias.png" alt="icono audiencias">
+            </figure>
+        </div>
+        <div class="col-md-5 mt-md-0-mt3">
+            <div class="texto">
+                <h3>Solicitud de Audiencias <br>(Ley del Lobby)</h3>
+            </div>
+        </div>
+
+        <div class="col-md-1 mt-md-0-mt3">
+                <figure id="tramites">
+                        <img src="img/icon-acces-info.png" alt="icono acceso informacion">
+                </figure>
+            </div>
+            <div class="col-md-5 mt-md-0-mt3">
+                <div class="texto">
+                    <h3>Solicitud de Acceso a la Información</h3>
+                </div>
+            </div>
+    </div>
+
+</div>
+<br>
+<br>
+<div class="container text-center text-md-left">
+
+    <div class="row">
+        <div class="col-md-1 mt-md-0-mt3">
+            <figure id="tramites">
+                    <img src="img/icon-p-circulacion.png" alt="icono permiso circulacion">
+            </figure>
+        </div>
+        <div class="col-md-5 mt-md-0-mt3">
+            <div class="texto">
+                <h3>Pagar Permiso de Circulación</h3>
+            </div>
+        </div>
+
+        <div class="col-md-1 mt-md-0-mt3">
+                <figure id="tramites">
+                        <img src="img/icon-derecho-aseo.png" alt="icono derecho aseo">
+                </figure>
+            </div>
+            <div class="col-md-5 mt-md-0-mt3">
+                <div class="texto">
+                    <h3>Pagar Derecho a Aseo</h3>
+                </div>
+            </div>
+    </div>
+
+</div>
+<br>
+<br>
+<div class="container text-center text-md-left">
+    
+    <div class="row">
+        <div class="col-md-1 mt-md-0-mt3">
+            <figure id="tramites">
+                    <img src="img/icon-p-municipal.png" alt="icono patente municipal">
+            </figure>
+        </div>
+        <div class="col-md-5 mt-md-0-mt3">
+            <div class="texto">
+                <h3>Pagar Patentes Municipales</h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<div class=linea>
+<hr noshade="noshade"/>
+</div>
+
+<div class="container text-center text-md-left">
+
+    <div class="row">
+        <div class="col-md-4 mt-md-0-mt3">
+            <figure id="tramites">
+                    <img src="img/icon-declaracion-trabajadores.png" alt="icono declaracion trabajadores">
+            </figure>
+            <div class="texto">
+                <p>Informativo declaración Trabajadores en casa matriz y sucursales 
+                 y solicitudes de certificado de inversiones año 2018</p>
+            </div>
+        </div>
+        
+
+        <div class="col-md-4 mt-md-0-mt3">
+                <figure id="tramites">
+                        <img src="img/icon-s-rebajas.png" alt="icono solicitud rebaja">
+                </figure>
+                <div class="texto">
+                        <p>Solicitud Certificado Rebaja de Inversiones 2018</p>
+                    </div>
+            </div>
+
+            <div class="col-md-4 mt-md-0-mt3">
+                    <figure id="tramites">
+                            <img src="img/icon-formu.png" alt="icono formulario">
+                    </figure>
+                    <div class="texto">
+                            <p>Formulario Declaración de Sucursales, 
+                            Trabajadores e Inversiones en empresas relacionadas y arriendo 
+                            de patentes</p>
+                        </div>
+                </div>
+
+    </div>
+
+</div>
+<div class=linea>
+<hr noshade="noshade"/>
+</div>
+<br>
+<div class="container">
+    <h3>Emisión de Certificados</h3>
+    <br>
+</div>
+
+<div class="container">
+    <br>
+    <h4>Organizaciones Comunitarias</h4>
+    <br>
+</div>
+
+<div class="container text-center text-md-left">
+
+        <div class="row">
+            <div class="col-md-1 mt-md-0-mt3">
+                <figure id="tramites">
+                        <img src="img/icon-c-vigencia.png" alt="icono certificado de vigencia">
+                </figure>
+            </div>
+            <div class="col-md-5 mt-md-0-mt3">
+                <div class="texto">
+                    <h3>Certificado de Vigencia</h3>
+                </div>
+            </div>
+    
+            <div class="col-md-1 mt-md-0-mt3">
+                    <figure id="tramites">
+                            <img src="img/icon-c-deudas.png" alt="icono certificado de deudas">
+                    </figure>
+                </div>
+                <div class="col-md-5 mt-md-0-mt3">
+                    <div class="texto">
+                        <h3>Certificado de Deudas</h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+  
+<div class="container">
+    <br>
+    <h4>Otras Unidades</h4>
+    <br>
+</div>
+
+<div class="container text-center text-md-left">
+
+    <div class="row">
+        <div class="col-md-1 mt-md-0-mt3">
+            <figure id="tramites">
+                    <img src="img/icon-c-d-obras.png" alt="icono direccion de obras">
+            </figure>
+        </div>
+        <div class="col-md-5 mt-md-0-mt3">
+            <div class="texto">
+                <h3>Certificado de Dirección de Obras</h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-------------------------------- FOOTER --------------------------------> 
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+        <div class="container-fluid text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mt-md-0 mt-3">
+      
+              <!-- Content -->
+              <h5 class="text-uppercase">Rancagua, ciudad capital</h5>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+                <!-- Redes Sociales -->
+                <h6>Síguenos en:</h6>
+                <ul class="list-unstyled">
+                  <li>
+                      <a href="https://www.facebook.com/munirancagua/"><span class="icon-facebook"></span>Facebook</a>
+                      <br>
+                      <a href="https://twitter.com/munirancagua"><span class="icon-twitter"></span>Twitter</a>
+                      <br>
+                      <a href="https://www.linkedin.com/company/ilustre-municipalidad-de-rancagua"><span class="icon-linkedin"></span>Linkedin</a>
+                      <br>
+                      <a href="https://www.youtube.com/user/munirancagua"><span class="icon-youtube"></span>Youtube</a>
+                  </li>
+                </ul>
+            </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+      
+                <!-- Links -->
+                <h6>Llámenos:</h6>
+      
+                <ul class="list-unstyled">
+                    <li>
+                      <p>Central Telefónica
+                        <br>
+                        800 20 90 90
+                        <br> <br>
+                        Edificio Central:
+                        <br> 
+                        Plaza los Héroes445
+                        <br>
+                        (72) 2443500(72) 2443500
+                      </p>
+                    </li>
+                  </ul>
+      
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+      
+                  <!-- Links -->
+                  <h5 class="text-uppercase"></h5>
+        
+                  <ul class="list-unstyled">
+                      <li>
+                        <br>
+                        <p>Edificio Tomás Guaglén:
+                          <br>
+                          República de Chile 592
+                          <br>
+                          (72) 2203300
+                          <br> <br>
+                          Edificio DGA:
+                          <br>
+                          Alameda esquina Viña del Mar 
+                          <br>
+                          (72) 2443700
+                        </p>
+                      </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+      
+        <div class="footer2 text-center py-3">
+          <p>Ilustre Municipalidad de Rancagua</p>
+        </div>
+      </footer>
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

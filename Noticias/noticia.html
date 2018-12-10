@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="estilosmenu.css">
+    <link rel="stylesheet" href="css/noticias.css"> <!--Estilos Propios--> 
+    <link rel="stylesheet" href="fonts.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!--Estilos Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> <!--Carousel-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!-------------------------------- HEADER --------------------------------> 
+
+    <header> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md 12">
+                        <div class= "page-header">
+                            <img src="img/rancaguamunilogo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-heart"></span>Ciudad<span class="caret icon-chevron-small-down"></span></a>
+                    <ul class="children"> <!-- SubMenu -->
+                        <li><a href="#">Rancagua<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Plan Regulador Comunal<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Plan Regulador Intercomunal<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Plan de Desarollo Comunal<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Plan Comunal de Seguridad Pública<span class="icon-dot-single"></span></a></li>
+                        <li><a href="#">Ordenanzas Municipales<span class="icon-dot-single"></span></a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-users"></span>Municipio<span class="caret icon-chevron-small-down"></span></a>
+                    <ul class="children">
+                            <li><a href="#">Alcalde<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Consejo Municipal<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Organigrama<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Cuentas Públicas<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Estados Financieros<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Documentos<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Decretos Municipales<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Concursos Públicos<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Ofertas Laborales<span class="icon-dot-single"></span></a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-users"></span>Unidades<span class="caret icon-chevron-small-down"></span></a>
+                    <ul class= "children">
+                            <li><a href="#">Juzgados de Policía Local<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Administración Municipal<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Relaciones Públicas y Comunicacionales<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Dirección de Control<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Secretaría Comunal de Planificación<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Asesoría Jurídica<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Secretaría Municipal<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Dirección y Desarrollo Comunitario<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Dirección de Obras Municipales<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Dirección de Tránsito y Transporte Público<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Dirección de Gestión Ambiental<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Dirección de Administración y Finanzas<span class="icon-dot-single"></span></a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><span class="icon-tree"></span>Medio Ambiente<span class="caret icon-chevron-small-down"></span></a>
+                    <ul class="children">
+                            <li><a href="#">SCAM<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Avances Estrategia Ambiental<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Limpieza y Mantención de Canales<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Tenencia Responsable de Animales<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Calidad del Aire<span class="icon-dot-single"></span></a></li>
+                            <li><a href="#">Residuos Sólidos Domiciliarios<span class="icon-dot-single"></span></a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="icon-brush"></span>Cultura</a></li>
+                <li><a href="#"><span class="icon-flag"></span>Deportes</a></li>
+                <li><a href="#"><span class="icon-mail"></span>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!-------------------------------- Noticias --------------------------------> 
+
+<br>
+<div class="container">
+<div class="noticia">
+    <div class="row">
+        <div class="col-md-12">
+                <h1>Cuerpo de Bomberos de Rancagua recibió cinco carros nuevos<br>
+                <small class="text-muted">Gracias a un aporte del Gobierno Regional, la Municipalidad y los propios vecinos, 
+                los voluntarios tendrán tres nuevas bombas, un portaescalas y un aljibe. </small></h1>
+        </div>
+    </div>
+    <div class=linea>
+    <hr noshade="noshade"/>
+    </div>
+
+    <div class="portadanoticia">
+        <img src="img/imgnoti01.jpg" alt="">
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <p>Con una ceremonia oficial realizada el domingo 2 de diciembre en la Plaza de Los Héroes, el Cuerpo de Bomberos de Rancagua presentó sus cinco
+            nuevos carros que les permitirá mejorar aún más el servicio que entregan a la comuna. Los carros son tres bombas de marca Rosenbauer, un aljibe Renault
+            y un portaescalas de la misma marca francesa que irá a la Octava Compañía. <br> <br>
+
+            La ceremonia fue encabezada por la Intendente (s) y gobernadora de Cachapoal, Ivonne Mangelsdorff, el alcalde de Rancagua, Eduardo Soto, y el superintendente del 
+            Cuerpo de Bomberos de Rancagua, Juan Carlos Field. En ella se realizó la entrega y la bendición de las cinco máquinas. Además, y como es habitual en este tipo de 
+            actividades, se realizó un desfile de parte de las ocho compañías de Rancagua, más la brigada juvenil. <br> <br>
+
+            <em>“Estamos muy contentos por la adquisición de estas tres máquinas nuevas. Es un proyecto del Gobierno Regional, más una cuota extraordinaria de la Municipalidad de
+            Rancagua, y de la comuna a través de una cuota de Essbio, una campaña exitosa que es ejemplo a nivel nacional. Además, se entregó un camión aljibe entregado por un 
+            empresario a un precio muy bajo, y también del Gobierno Metropolitano que nos cedió un carro portaescalas para la compañía más nóvel, la Octava”</em>, indicó el superintendente 
+            Juan Carlos Field.<br> <br>
+
+            Por su parte, el alcalde Eduardo Soto indicó que <em>“estamos felices de aportar, nosotros hacemos una subvención anual, pero este fue un aporte extraordinario de 200 millones, y estamos dispuestos 
+            a hacerlo en el futuro porque creemos que hoy se requiere más material y más moderno para una mayor exigencia de los tiempos de respuesta. Si bien es cierto que tenemos uno de los mejores cuerpos
+            de Bomberos del país, creo que siempre debemos aspirar a más, y para eso está nuestra voluntad”.</em>  
+            <br><br>
+            Por último, la Intendenta (s) Ivonne Mangelsdorff, señaló que <em>“estamos muy contentos como Gobierno Regional, porque el apoyo y compromiso para darle las herramientas a Bomberos, hoy se está viendo materializado
+            en estos cinco carros bomba para actuar ante las emergencias”.</em></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container">
+<div class="card-group">
+    <div class="card">
+            <img class="card-img-top" src="img/imgnotigale01.jpg" alt="Card image cap">
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/imgnotigale02.jpg" alt="Card image cap">
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/imgnotigale03.jpg" alt="Card image cap">
+        </div>
+    </div>
+
+    <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="img/imgnotigale04.jpg" alt="Card image cap">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/imgnotigale05.jpg" alt="Card image cap">
+            </div>
+            <div class="card">
+                    <img class="card-img-top" src="img/imgnotigale06.jpg" alt="Card image cap">
+            </div>
+    </div>
+
+    <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="img/imgnotigale07.jpg" alt="Card image cap">
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/imgnotigale08.jpg" alt="Card image cap">
+            </div>
+            <div class="card">
+                    <img class="card-img-top" src="img/imgnotigale09.jpg" alt="Card image cap">
+            </div>
+    </div>
+</div>
+</div>
+
+<!-------------------------------- FOOTER --------------------------------> 
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Rancagua, ciudad capital</h5>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Redes Sociales -->
+          <h6>Síguenos en:</h6>
+          <ul class="list-unstyled">
+            <li>
+                <a href="https://www.facebook.com/munirancagua/"><span class="icon-facebook"></span>Facebook</a>
+                <br>
+                <a href="https://twitter.com/munirancagua"><span class="icon-twitter"></span>Twitter</a>
+                <br>
+                <a href="https://www.linkedin.com/company/ilustre-municipalidad-de-rancagua"><span class="icon-linkedin"></span>Linkedin</a>
+                <br>
+                <a href="https://www.youtube.com/user/munirancagua"><span class="icon-youtube"></span>Youtube</a>
+            </li>
+          </ul>
+      </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h6>Llámenos:</h6>
+
+          <ul class="list-unstyled">
+              <li>
+                <p>Central Telefónica
+                  <br>
+                  800 20 90 90
+                  <br> <br>
+                  Edificio Central:
+                  <br> 
+                  Plaza los Héroes445
+                  <br>
+                  (72) 2443500(72) 2443500
+                </p>
+              </li>
+            </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase"></h5>
+  
+            <ul class="list-unstyled">
+                <li>
+                  <br>
+                  <p>Edificio Tomás Guaglén:
+                    <br>
+                    República de Chile 592
+                    <br>
+                    (72) 2203300
+                    <br> <br>
+                    Edificio DGA:
+                    <br>
+                    Alameda esquina Viña del Mar 
+                    <br>
+                    (72) 2443700
+                  </p>
+                </li>
+            </ul>
+          </div>
+    </div>
+  </div>
+
+  <div class="footer2 text-center py-3">
+    <p>Ilustre Municipalidad de Rancagua</p>
+  </div>
+</footer>
+
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
